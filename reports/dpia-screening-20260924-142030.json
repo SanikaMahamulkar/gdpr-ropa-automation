@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-24T14:20:30.658337+00:00",
+  "methodology": "ICO/EDPB nine-criteria screening (WP248), per GDPR Article 35(3)",
+  "activities_screened": 5,
+  "dpia_required_count": 2,
+  "results": [
+    {
+      "activity_id": "PA-004",
+      "activity_name": "Automated Credit Risk Scoring for Buy-Now-Pay-Later",
+      "department": "Finance",
+      "criteria_matched_count": 4,
+      "criteria_matched": [
+        "Large-scale processing",
+        "Automated decision-making with legal or similarly significant effect",
+        "Processing affecting vulnerable data subjects",
+        "Data matching or combining datasets"
+      ],
+      "dpia_required": true,
+      "reason": "Triggers DPIA independently under Article 35(3): Automated decision-making with legal or similarly significant effect"
+    },
+    {
+      "activity_id": "PA-003",
+      "activity_name": "Website Behavioural Analytics & Ad Targeting",
+      "department": "Marketing",
+      "criteria_matched_count": 3,
+      "criteria_matched": [
+        "Large-scale processing",
+        "Systematic monitoring of individuals",
+        "Data matching or combining datasets"
+      ],
+      "dpia_required": true,
+      "reason": "Triggers DPIA independently under Article 35(3): Systematic monitoring of individuals"
+    },
+    {
+      "activity_id": "PA-001",
+      "activity_name": "Customer Order Fulfilment",
+      "department": "Operations",
+      "criteria_matched_count": 1,
+      "criteria_matched": [
+        "Large-scale processing"
+      ],
+      "dpia_required": false,
+      "reason": "Meets 1 of the nine criteria - below the threshold for a mandatory DPIA. Recommend periodic re-screening if the activity's scope changes."
+    },
+    {
+      "activity_id": "PA-002",
+      "activity_name": "Employee Health Records Management",
+      "department": "HR",
+      "criteria_matched_count": 1,
+      "criteria_matched": [
+        "Processing of special category or highly sensitive data"
+      ],
+      "dpia_required": false,
+      "reason": "Meets 1 of the nine criteria - below the threshold for a mandatory DPIA. Recommend periodic re-screening if the activity's scope changes."
+    },
+    {
+      "activity_id": "PA-005",
+      "activity_name": "Internal IT Helpdesk Ticketing",
+      "department": "IT",
+      "criteria_matched_count": 0,
+      "criteria_matched": [],
+      "dpia_required": false,
+      "reason": "Meets 0 of the nine criteria - below the threshold for a mandatory DPIA. Recommend periodic re-screening if the activity's scope changes."
+    }
+  ]
+}
